@@ -1,0 +1,48 @@
+.Apoiadores {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.apoiador {
+  text-align: center;
+}
+
+.imagem {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 260px;
+  width: 360px;
+  border-radius: .8rem;
+  border: 2px solid var(--cor-secundaria);
+}
+
+.apoiador h3 {
+  font-size: 1.3rem;
+  color: var(--cor-secundaria);
+  margin-top: 1rem;
+}
+
+.apoiador p {
+  font-size: 1rem;
+  margin-top: .2rem;
+}
+
+@media (max-width: 60rem) {
+  .Apoiadores {
+    max-width: 60rem;
+    padding: 0 .7rem;
+  }
+
+  .imagem {
+    height: 200px;
+    width: 300px;
+  }
+}

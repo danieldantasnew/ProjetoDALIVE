@@ -1,0 +1,40 @@
+.streamers {
+  margin-bottom: 5rem;
+  min-height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-areas: 
+  "diana alan alan jovirone"
+  "diana alan alan jovirone"
+  "diana casimiro nivi pato"
+  ;
+  grid-auto-rows: minmax(200px, 400px);
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+  position: relative;
+}
+
+@media (max-width: 60rem) {
+  .streamers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .image {
+    height: 200px;
+    width: 340px;
+    border-radius: .3rem;
+    background-position: top;
+    overflow: hidden;
+  }
+}

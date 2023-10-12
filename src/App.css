@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400;600;700;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fonte-principal: 'Public Sans', sans-serif;
+  --fonte-secundaria: 'Roboto', sans-serif;
+
+  /*cores neutras */
+  --cor-primaria : black;
+  --cor-secundaria: blueviolet;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.animationLeft {
+  transform: translateX(-20px);
+  animation: animationLeft .3s forwards;
+}
+
+@keyframes animationLeft {
+  to {
+    transform: translateX(0px);
+  }
+}

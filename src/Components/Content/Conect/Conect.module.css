@@ -1,0 +1,27 @@
+.moreInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.moreInfo h4 {
+  font-size: 1.8rem;
+}
+
+.redesSociais ul{
+  display: flex;
+  flex-direction: row;
+  gap: .6rem;
+}
+
+.redesSociais li{
+  list-style: none;
+}
+
+.redesSociais li a svg{
+  fill: var(--cor-secundaria);
+}
