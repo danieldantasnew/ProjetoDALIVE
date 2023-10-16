@@ -1,0 +1,42 @@
+.darkMode {
+  background-color: var(--cor-secundaria);
+  width: 48px;
+  height: 23px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 .2rem;
+  border-radius: 14px;
+}
+
+.darkMode > svg{
+  height: 16px;
+}
+
+.btnDark {
+  padding: 0;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  border: 1px solid var(--btn-menu-borda);
+  border-radius: 50%;
+  top: -2px;
+  left: -1px;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+.btnDarkAtivo {
+  padding: 0;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  top: -2px;
+  left: 25px;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,.1);
+  transition: .3s;
+}

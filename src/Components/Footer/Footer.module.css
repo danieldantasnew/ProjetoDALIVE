@@ -1,8 +1,11 @@
 footer {
   height: 5.5rem;
   width: 100%;
-  box-shadow: 0px 0px 2px 1px rgba(0,0,0,.1);
+  box-shadow: 0px 0px 2px 1px var(--cor-sombra);
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--cor-body);
+  transition: background-color .3s;
+  color: var(--cor-primaria);
 }

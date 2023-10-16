@@ -2,7 +2,6 @@ import Button from '../Items/Button';
 import style from './Lives.module.css';
 
 const Lives = () => {
-
   return (
     <div className={style.lives}>
       <div className={style.info}>

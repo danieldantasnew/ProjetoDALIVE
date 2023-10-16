@@ -24,7 +24,7 @@ const Apoiadores = () => {
   ]
 
   return (
-    <div className={style.Apoiadores}>
+    <div className={style.Apoiadores} id='apoiadores'>
       {pessoas.map((pessoa)=> 
       <div key={pessoa.id} className={style.apoiador}>
         <div className={style.imagem} style={{backgroundImage: `url(${pessoa.src})`}}></div>

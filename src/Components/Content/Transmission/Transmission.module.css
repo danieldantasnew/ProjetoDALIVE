@@ -29,15 +29,6 @@
 
   .transmissions {
     height: 45vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 1rem;
-    color: white;
-    margin-bottom: 5rem;
   }
 
   .transmissions h2 {

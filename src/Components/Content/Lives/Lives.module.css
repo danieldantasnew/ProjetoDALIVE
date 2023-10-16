@@ -44,7 +44,7 @@
 
 .btn1 {
   background-color: var(--cor-primaria);
-  color: white;
+  color: var(--cor-body);
   border: transparent;
   transition: .2s;
 }
@@ -52,6 +52,7 @@
 .btn1:hover {
   box-shadow: 0px 0px 1px 2px var(--cor-secundaria);
   background-color: var(--cor-secundaria);
+  color: white;
 }
 
 .btn2 {
@@ -64,6 +65,7 @@
 .btn2:hover {
   box-shadow: 0px 0px 1px 2px var(--cor-primaria);
   background-color: var(--cor-primaria);
+  color: var(--cor-body);
 }
 
 
@@ -78,6 +80,36 @@ iframe {
   min-height: 300px;
   height: 100%;
   border: 6px solid var(--cor-secundaria);
+}
+
+@media (max-width: 30.1rem) {
+  .lives {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-self: center;
+  }
+  .iframe {
+    justify-self: center;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    height: initial;
+    border: 6px solid var(--cor-secundaria);
+  }
 }
 
 @media (max-width: 60rem) {

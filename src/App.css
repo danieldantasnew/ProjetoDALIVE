@@ -13,6 +13,17 @@
   /*cores neutras */
   --cor-primaria : black;
   --cor-secundaria: blueviolet;
+  --cor-body: white;
+  --cor-sombra: rgba(0,0,0,.1);
+  --btn-menu: #eee;
+  --btn-menu-conteudo-interno: black;
+  --btn-menu-borda: transparent;
+  --btn-Scroll-Top: rgb(81, 32, 128);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.4rem;
 }
 
 body {
@@ -32,4 +43,21 @@ body {
   to {
     transform: translateX(0px);
   }
+}
+
+.modoDark {
+  --cor-primaria: white;
+  --cor-body: #18191a;
+  --cor-sombra: rgba(255, 255, 255, 0.2);
+  --btn-menu: transparent;
+  --btn-menu-conteudo-interno: blueviolet;
+  --btn-menu-borda: blueviolet;
+  --btn-Scroll-Top: white;
+}
+
+main {
+  background-color: var(--cor-body);
+  transition: background-color .3s;
+  min-height: 100vh;
+  width: 100%;
 }

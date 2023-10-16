@@ -2,7 +2,7 @@ import style from './Transmission.module.css';
 
 const Transmission = () => {
   return (
-    <div className={style.transmissions}>
+    <div className={style.transmissions} id='sobre'>
       <h2>Assista as transmissões</h2>
       <p>Transmissões 24/7, nunca fique sem diversão.</p>
       <h2>Somente os melhores!</h2>

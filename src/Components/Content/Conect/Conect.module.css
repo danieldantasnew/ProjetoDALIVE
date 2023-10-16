@@ -6,6 +6,7 @@
   text-align: center;
   gap: 1rem;
   margin-bottom: 4rem;
+  color: var(--cor-primaria);
 }
 
 .moreInfo h4 {

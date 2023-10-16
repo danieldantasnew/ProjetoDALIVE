@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
+  color: var(--cor-primaria);
 }
 
 .apoiador {
@@ -33,6 +34,24 @@
 .apoiador p {
   font-size: 1rem;
   margin-top: .2rem;
+}
+
+@media (max-width: 30.1rem) {
+  .Apoiadores {
+    max-width: 60rem;
+    padding: 0 .7rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .apoiador {
+    text-align: center;
+    width: 100%;
+  }
+
+  .imagem {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 60rem) {
